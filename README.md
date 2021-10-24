@@ -3,6 +3,7 @@
 ## Description
 This is a Note Taker app that can be used to write and save notes. This application uses an Express.js back end and will save and retrieve note data from a JSON file.
 
+[Deployed Link!](https://jaylas-homework-11.herokuapp.com/)
 ## Usage 
 1. Click on 'Get Started' button on the landing page.
 2. You will then be presented with the Notes page. Here you can click the little plus '+' icon in the right top corner. 
