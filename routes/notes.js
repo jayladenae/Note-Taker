@@ -18,7 +18,7 @@ const { title, text } = req.body
         {
             title,
             text,
-            notes_id: uuid(),
+            id: uuid(),
         };
 
         readAndAppend(newNotes, './db/db.json');
