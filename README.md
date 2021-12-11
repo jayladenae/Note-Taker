@@ -1,22 +1,32 @@
 # Note Taker
 
+[https://note-taker.herokuapp.com/](https://jaylas-homework-11.herokuapp.com/)
+
 ## Description
 This is a Note Taker app that can be used to write and save notes. This application uses an Express.js back end and will save and retrieve note data from a JSON file.
 
-[Deployed Link!](https://jaylas-homework-11.herokuapp.com/)
-## Usage 
-1. Click on 'Get Started' button on the landing page.
-2. You will then be presented with the Notes page. Here you can click the little plus '+' icon in the right top corner. 
-3. You can now click the upper section on the blank 'New Note' section to give your new note a title and click anywhere in the 'Note Text'.
-4. Once you're done with your note you will now see a save icon '💾' in white and you can click this and it will save your new note and be listed on the left side on the list.
-5. You can now click your note whenever you would like to view it again.
+## User Story
+```
+GIVEN a note-taking application
+WHEN I open the Note Taker
+THEN I am presented with a landing page with a link to a notes page
+WHEN I click on the link to the notes page
+THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+WHEN I enter a new note title and the note’s text
+THEN a Save icon appears in the navigation at the top of the page
+WHEN I click on the Save icon
+THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
+WHEN I click on an existing note in the list in the left-hand column
+THEN that note appears in the right-hand column
+WHEN I click on the Write icon in the navigation at the top of the page
+THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+```
 
-#### Landing page
 
 ![Landing Page](landingpage.jpg)
-
-#### Note Page
 ![Note page](notepage.jpg)
+
+
 ### Credits
 - Ismeny Saguillan
 - Express.js package
